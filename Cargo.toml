@@ -24,15 +24,17 @@ ark-std = { version = "0.3", features = ["print-trace"] }
 [dependencies]
 subtle = "2.4"
 
-
+#-- original
 # ff = "0.11"
-ff = "0.13"
+# group = "0.11"
+
+ff = "0.12.1"
+# ff = "0.11.1"
 
 
+group = "0.12.0"
 
 
-
-group = "0.11"
 # pairing = "0.20"
 static_assertions = "1.1.0"
 rand = "0.8"
